@@ -1,4 +1,4 @@
-FROM python:3.11-slim
+FROM python:99.99-fake
 RUN pip install flask mysql-connector-python
 WORKDIR /app
 COPY app.py app.py
